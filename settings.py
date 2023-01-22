@@ -6,30 +6,30 @@ ANIMATION_SPEED = 8
 
 # editor graphics 
 EDITOR_DATA = {
-	0: {'style': 'player', 'type': 'object', 'menu': None, 'menu_surf': None, 'preview': None, 'graphics': '../graphics/player/idle_right'},
+	0: {'style': 'player', 'type': 'object', 'menu': None, 'menu_surf': None, 'preview': None, 'graphics': './Super-Pirate-Maker/graphics/player/idle_right'},
 	1: {'style': 'sky',    'type': 'object', 'menu': None, 'menu_surf': None, 'preview': None, 'graphics': None},
 	
-	2: {'style': 'terrain', 'type': 'tile', 'menu': 'terrain', 'menu_surf': '../graphics/menu/land.png',  'preview': '../graphics/preview/land.png',  'graphics': None},
-	3: {'style': 'water',   'type': 'tile', 'menu': 'terrain', 'menu_surf': '../graphics/menu/water.png', 'preview': '../graphics/preview/water.png', 'graphics': '../graphics/terrain/water/animation'},
+	2: {'style': 'terrain', 'type': 'tile', 'menu': 'terrain', 'menu_surf': './Super-Pirate-Maker/graphics/menu/land.png',  'preview': './Super-Pirate-Maker/graphics/preview/land.png',  'graphics': None},
+	3: {'style': 'water',   'type': 'tile', 'menu': 'terrain', 'menu_surf': './Super-Pirate-Maker/graphics/menu/water.png', 'preview': './Super-Pirate-Maker/graphics/preview/water.png', 'graphics': './Super-Pirate-Maker/graphics/terrain/water/animation'},
 	
-	4: {'style': 'coin', 'type': 'tile', 'menu': 'coin', 'menu_surf': '../graphics/menu/gold.png',    'preview': '../graphics/preview/gold.png',    'graphics': '../graphics/items/gold'},
-	5: {'style': 'coin', 'type': 'tile', 'menu': 'coin', 'menu_surf': '../graphics/menu/silver.png',  'preview': '../graphics/preview/silver.png',  'graphics': '../graphics/items/silver'},
-	6: {'style': 'coin', 'type': 'tile', 'menu': 'coin', 'menu_surf': '../graphics/menu/diamond.png', 'preview': '../graphics/preview/diamond.png', 'graphics': '../graphics/items/diamond'},
+	4: {'style': 'coin', 'type': 'tile', 'menu': 'coin', 'menu_surf': './Super-Pirate-Maker/graphics/menu/gold.png',    'preview': './Super-Pirate-Maker/graphics/preview/gold.png',    'graphics': './Super-Pirate-Maker/graphics/items/gold'},
+	5: {'style': 'coin', 'type': 'tile', 'menu': 'coin', 'menu_surf': './Super-Pirate-Maker/graphics/menu/silver.png',  'preview': './Super-Pirate-Maker/graphics/preview/silver.png',  'graphics': './Super-Pirate-Maker/graphics/items/silver'},
+	6: {'style': 'coin', 'type': 'tile', 'menu': 'coin', 'menu_surf': './Super-Pirate-Maker/graphics/menu/diamond.png', 'preview': './Super-Pirate-Maker/graphics/preview/diamond.png', 'graphics': './Super-Pirate-Maker/graphics/items/diamond'},
 
-	7:  {'style': 'enemy', 'type': 'tile', 'menu': 'enemy', 'menu_surf': '../graphics/menu/spikes.png',      'preview': '../graphics/preview/spikes.png',      'graphics': '../graphics/enemies/spikes'},
-	8:  {'style': 'enemy', 'type': 'tile', 'menu': 'enemy', 'menu_surf': '../graphics/menu/tooth.png',       'preview': '../graphics/preview/tooth.png',       'graphics': '../graphics/enemies/tooth/idle'},
-	9:  {'style': 'enemy', 'type': 'tile', 'menu': 'enemy', 'menu_surf': '../graphics/menu/shell_left.png',  'preview': '../graphics/preview/shell_left.png',  'graphics': '../graphics/enemies/shell_left/idle'},
-	10: {'style': 'enemy', 'type': 'tile', 'menu': 'enemy', 'menu_surf': '../graphics/menu/shell_right.png', 'preview': '../graphics/preview/shell_right.png', 'graphics': '../graphics/enemies/shell_right/idle'},
+	7:  {'style': 'enemy', 'type': 'tile', 'menu': 'enemy', 'menu_surf': './Super-Pirate-Maker/graphics/menu/spikes.png',      'preview': './Super-Pirate-Maker/graphics/preview/spikes.png',      'graphics': './Super-Pirate-Maker/graphics/enemies/spikes'},
+	8:  {'style': 'enemy', 'type': 'tile', 'menu': 'enemy', 'menu_surf': './Super-Pirate-Maker/graphics/menu/tooth.png',       'preview': './Super-Pirate-Maker/graphics/preview/tooth.png',       'graphics': './Super-Pirate-Maker/graphics/enemies/tooth/idle'},
+	9:  {'style': 'enemy', 'type': 'tile', 'menu': 'enemy', 'menu_surf': './Super-Pirate-Maker/graphics/menu/shell_left.png',  'preview': './Super-Pirate-Maker/graphics/preview/shell_left.png',  'graphics': './Super-Pirate-Maker/graphics/enemies/shell_left/idle'},
+	10: {'style': 'enemy', 'type': 'tile', 'menu': 'enemy', 'menu_surf': './Super-Pirate-Maker/graphics/menu/shell_right.png', 'preview': './Super-Pirate-Maker/graphics/preview/shell_right.png', 'graphics': './Super-Pirate-Maker/graphics/enemies/shell_right/idle'},
 	
-	11: {'style': 'palm_fg', 'type': 'object', 'menu': 'palm fg', 'menu_surf': '../graphics/menu/small_fg.png', 'preview': '../graphics/preview/small_fg.png', 'graphics': '../graphics/terrain/palm/small_fg'},
-	12: {'style': 'palm_fg', 'type': 'object', 'menu': 'palm fg', 'menu_surf': '../graphics/menu/large_fg.png', 'preview': '../graphics/preview/large_fg.png', 'graphics': '../graphics/terrain/palm/large_fg'},
-	13: {'style': 'palm_fg', 'type': 'object', 'menu': 'palm fg', 'menu_surf': '../graphics/menu/left_fg.png',  'preview': '../graphics/preview/left_fg.png',  'graphics': '../graphics/terrain/palm/left_fg'},
-	14: {'style': 'palm_fg', 'type': 'object', 'menu': 'palm fg', 'menu_surf': '../graphics/menu/right_fg.png', 'preview': '../graphics/preview/right_fg.png', 'graphics': '../graphics/terrain/palm/right_fg'},
+	11: {'style': 'palm_fg', 'type': 'object', 'menu': 'palm fg', 'menu_surf': './Super-Pirate-Maker/graphics/menu/small_fg.png', 'preview': './Super-Pirate-Maker/graphics/preview/small_fg.png', 'graphics': './Super-Pirate-Maker/graphics/terrain/palm/small_fg'},
+	12: {'style': 'palm_fg', 'type': 'object', 'menu': 'palm fg', 'menu_surf': './Super-Pirate-Maker/graphics/menu/large_fg.png', 'preview': './Super-Pirate-Maker/graphics/preview/large_fg.png', 'graphics': './Super-Pirate-Maker/graphics/terrain/palm/large_fg'},
+	13: {'style': 'palm_fg', 'type': 'object', 'menu': 'palm fg', 'menu_surf': './Super-Pirate-Maker/graphics/menu/left_fg.png',  'preview': './Super-Pirate-Maker/graphics/preview/left_fg.png',  'graphics': './Super-Pirate-Maker/graphics/terrain/palm/left_fg'},
+	14: {'style': 'palm_fg', 'type': 'object', 'menu': 'palm fg', 'menu_surf': './Super-Pirate-Maker/graphics/menu/right_fg.png', 'preview': './Super-Pirate-Maker/graphics/preview/right_fg.png', 'graphics': './Super-Pirate-Maker/graphics/terrain/palm/right_fg'},
 
-	15: {'style': 'palm_bg', 'type': 'object', 'menu': 'palm bg', 'menu_surf': '../graphics/menu/small_bg.png', 'preview': '../graphics/preview/small_bg.png', 'graphics': '../graphics/terrain/palm/small_bg'},
-	16: {'style': 'palm_bg', 'type': 'object', 'menu': 'palm bg', 'menu_surf': '../graphics/menu/large_bg.png', 'preview': '../graphics/preview/large_bg.png', 'graphics': '../graphics/terrain/palm/large_bg'},
-	17: {'style': 'palm_bg', 'type': 'object', 'menu': 'palm bg', 'menu_surf': '../graphics/menu/left_bg.png',  'preview': '../graphics/preview/left_bg.png',  'graphics': '../graphics/terrain/palm/left_bg'},
-	18: {'style': 'palm_bg', 'type': 'object', 'menu': 'palm bg', 'menu_surf': '../graphics/menu/right_bg.png', 'preview': '../graphics/preview/right_bg.png', 'graphics': '../graphics/terrain/palm/right_bg'},
+	15: {'style': 'palm_bg', 'type': 'object', 'menu': 'palm bg', 'menu_surf': './Super-Pirate-Maker/graphics/menu/small_bg.png', 'preview': './Super-Pirate-Maker/graphics/preview/small_bg.png', 'graphics': './Super-Pirate-Maker/graphics/terrain/palm/small_bg'},
+	16: {'style': 'palm_bg', 'type': 'object', 'menu': 'palm bg', 'menu_surf': './Super-Pirate-Maker/graphics/menu/large_bg.png', 'preview': './Super-Pirate-Maker/graphics/preview/large_bg.png', 'graphics': './Super-Pirate-Maker/graphics/terrain/palm/large_bg'},
+	17: {'style': 'palm_bg', 'type': 'object', 'menu': 'palm bg', 'menu_surf': './Super-Pirate-Maker/graphics/menu/left_bg.png',  'preview': './Super-Pirate-Maker/graphics/preview/left_bg.png',  'graphics': './Super-Pirate-Maker/graphics/terrain/palm/left_bg'},
+	18: {'style': 'palm_bg', 'type': 'object', 'menu': 'palm bg', 'menu_surf': './Super-Pirate-Maker/graphics/menu/right_bg.png', 'preview': './Super-Pirate-Maker/graphics/preview/right_bg.png', 'graphics': './Super-Pirate-Maker/graphics/terrain/palm/right_bg'},
 }
 
 NEIGHBOR_DIRECTIONS = {
