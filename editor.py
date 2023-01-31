@@ -65,6 +65,8 @@ class Editor():
 
         self.selection_index = max(2, min(self.selection_index, 18))
 
+    
+
     # Drawing
     def draw_tile_lines(self):
         cols = WINDOW_WIDTH // TILE_SIZE

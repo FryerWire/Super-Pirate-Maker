@@ -1,4 +1,7 @@
 
+"""
+1/31/23 - STOPPED: 1.28:56
+"""
 import pygame
 from settings import *
 from pygame.image import load
@@ -27,6 +30,3 @@ class Main():
 if __name__ == "__main__":
     main = Main()
     main.run()
-
-
-# 1:18
