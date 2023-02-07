@@ -1,7 +1,8 @@
 
 """
-1/31/23 - STOPPED: 1.28:56
+Stopped at 1:43 which is the start of the "Creating Tiles" chapter
 """
+
 import pygame
 from settings import *
 from pygame.image import load
